@@ -13,7 +13,7 @@ try {
 	$mail_subject = isset( $_POST['subject'] ) ? $_POST['subject'] : '';
 	$mail_message = isset( $_POST['message'] ) ? $_POST['message'] : '';
 	$mail->isSMTP();
-	$mail->Host = 'smtp.gmail.com';
+	$mail->Host = '***'; //YOUR SMTP HOST
 	$mail->SMTPAuth = true;
 	$mail->Username = '***'; //YOUR EMAIL ADDRESS
 	$mail->Password = '***'; //YOUR EMAIL PASSWORD
